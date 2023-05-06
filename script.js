@@ -3,9 +3,14 @@ function myFunction() {
 	var input = document.getElementById("myInput");
 	var filter = input.value.toUpperCase();
 
-	var table = document.getElementById("myTable");
-	var trows = table.getElementsByTagName("tr");
-    
+	var allTables = document.getElementsByTagName("table");
+	var table;
+	//var trows = table.getElementsByTagName("tr");
+    for(var j = 0; j < allTables.length; j++){
+
+		table = allTables[j];
+		trows = table.getElementsByTagName("tr")
+
 	for (var i = 0; i < trows.length; i++) {
 
         var td = trows[i].getElementsByTagName("td")[1];
@@ -27,7 +32,7 @@ function myFunction() {
 			}
 		}       
 	}
-    
+}
 }
 
 

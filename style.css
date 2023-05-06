@@ -10,9 +10,30 @@ th, td {
 tr:hover {
 	background-color: #f6f6f6;
 }
-input[type=text] {
-	padding: 6px;
+
+h1{
+	font-size: 33px;
+	font-weight: 999;
+	text-align: center;
+	margin-top: 99px;
+
+}
+
+.cc{
+	text-align: center;
+}
+.cc input[type=text] {
+	padding: 9px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	margin-bottom: 9px;
+	
+}
+
+
+p{
+	font-size: 28px;
+	font-weight: 999;
+	text-align: center;
+	margin-top: 99px;
 }
